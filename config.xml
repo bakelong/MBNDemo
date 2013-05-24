@@ -76,10 +76,28 @@
     <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
     <plugin name="Echo" value="org.apache.cordova.Echo" />
     <plugin name="Globalization" value="org.apache.cordova.Globalization"/>
-    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser"/>   
-    <!--plugin ios-->
-    <plugin name="File" value="CDVFile" />
-    <plugin name="FileTransfer" value="CDVFileTransfer" />
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser"/>  
+    
+    <!--plugin ios-->    
+       <plugin name="Device" value="CDVDevice" />
+       <plugin name="Logger" value="CDVLogger" />
+       <plugin name="Compass" value="CDVLocation" />
+       <plugin name="Accelerometer" value="CDVAccelerometer" />
+       <plugin name="Camera" value="CDVCamera" />
+       <plugin name="NetworkStatus" value="CDVConnection" />
+       <plugin name="Contacts" value="CDVContacts" />
+       <plugin name="Debug Console" value="CDVDebugConsole" />
+       <plugin name="Echo" value="CDVEcho" />
+       <plugin name="File" value="CDVFile" />
+       <plugin name="FileTransfer" value="CDVFileTransfer" />
+       <plugin name="Geolocation" value="CDVLocation" />
+       <plugin name="Notification" value="CDVNotification" />
+       <plugin name="Media" value="CDVSound" />
+       <plugin name="Capture" value="CDVCapture" />
+       <plugin name="SplashScreen" value="CDVSplashScreen" />
+       <plugin name="Battery" value="CDVBattery" />
+       <plugin name="Globalization" value="CDVGlobalization" />
+       <plugin name="InAppBrowser" value="CDVInAppBrowser" />
 </plugins>
 </cordova>
 
